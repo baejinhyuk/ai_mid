@@ -52,3 +52,37 @@ x_test,y_test=imgs_to_array("VegetableImages/test", image_label)
 x_val,y_val=imgs_to_array("VegetableImages/validation", image_label) '''
 
 st.code(code4, language='python')
+
+code5 ='''x_train_img = np.array(x_train)
+x_test_img = np.array(x_test)
+y_train_img = np.array(y_train)
+y_test_img = np.array(y_test)
+
+x_val_img = np.array(x_val)
+y_val_img = np.array(y_val)
+
+
+
+x_train_img.shape,x_test_img.shape,y_train_img.shape,y_test_img.shape,x_val_img.shape,y_val_img '''
+
+st.code(code5, language='python')
+
+code6 ='''x_train = x_train_img / 255
+x_valid = x_val_img / 255
+x_test = x_test_img / 255 '''
+
+st.code(code6, language='python')
+
+code7='''x_train.shape,x_valid.shape, x_test.shape '''
+
+st.code(code7, language='python')
+
+code8='''from sklearn.preprocessing import LabelBinarizer
+
+lb= LabelBinarizer()
+y_train = lb.fit_transform(y_train_img)
+y_valid = lb.transform(y_val_img)
+
+y_train.shape, y_valid.shape '''
+
+st.code(code8, language='python')
