@@ -45,7 +45,7 @@ code2 = '''def img_folder_read(rt_dir, img_label):
     return img_files, labels
 
 img_sample, labels = img_folder_read("VegetableImages/train", "Tomato")
-
+st.code(code2, language='python')
 
 st.markdown('### 위 함수를 사용하여 이미지와 정답값을 train, test, valid에 리스트 담아줍니다.')
 
