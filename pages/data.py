@@ -138,3 +138,15 @@ earlystop = EarlyStopping(monitor="val_accuracy", patience=5, verbose=1) '''
 
 st.code(code13, language='python')
 
+code14='''history2= model.fit(x_train,y_train, batch_size=32,
+                   epochs=100,validation_data=(x_valid,y_valid), callbacks=[earlystop]) '''
+
+st.code(code14, language='python')
+
+code15='''pd.DataFrame(history2.history).tail() '''
+
+st.code(code15, language='python')
+
+code16=''' '''
+
+st.code(code16, language='python')
