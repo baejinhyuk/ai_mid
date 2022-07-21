@@ -1,6 +1,4 @@
 import streamlit as st
-from text.contents import *
-from importlib.resources import path
 
 st.markdown('### file load')
 code = '''root_dir = "VegetableImages/train"
