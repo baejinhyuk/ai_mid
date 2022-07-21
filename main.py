@@ -1,21 +1,23 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Likelion AI School Dog Team Miniproject",
-    page_icon="🐶",
+    page_title="Likelion AI School Vegetable Image Dataset Midproject",
+    page_icon="",
     layout="wide",
 )
-st.sidebar.markdown("# Stanford Dogs Data Info🐶")
+st.sidebar.markdown("# Vegetable Image Dataset ")
 
-st.markdown('# CV Mini Project')
-st.markdown("## Stanford Dogs Dataset (kaggle) 🐶")
+st.markdown('# Vegetable Image Dataset Mid Project')
+st.markdown("## 야채 사진 15종  (kaggle) 🐶")
 st.markdown(
-    '#### [Stanford Dogs Dataset link](https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset?datasetId=119698&sortBy=voteCount)')
-st.markdown("강아지 사진을 올리면 무슨 종에 가까운지 알려줍니다!")
+    '#### [Vegetable Image Dataset link](https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset)')
+    
+st.markdown("야채사진을 올려주세용!")
 
-st.markdown("![Alt Text](https://media.giphy.com/media/kxlDaFDVzTLb2/giphy.gif)")
+st.markdown("![Alt Text](https://media.giphy.com/media/Buva2aomcuXBAD07PC/giphy.gif)")
+
 
 st.markdown('---')
 
-st.markdown('팀장: 주소리')
-st.markdown('팀원: 이주승, 김재석')
+st.markdown('취업뽀개조 만세!')
+
