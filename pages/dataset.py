@@ -48,7 +48,7 @@ img_sample, labels = img_folder_read("VegetableImages/train", "Tomato")
 
 
 st.markdown('### 위 함수를 사용하여 이미지와 정답값을 train, test, valid에 리스트 담아줍니다.')
-code3 = '''def imgs_to_array(rt_dir, image_label):
+code3 = ''' def imgs_to_array(rt_dir, image_label):
     x_img = []
     y_img = []
     for img_label in tqdm.tqdm(image_label):
