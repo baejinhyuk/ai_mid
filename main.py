@@ -17,7 +17,7 @@ st.markdown(
 
 st.markdown("![Alt Text](https://media.giphy.com/media/89sIi77nGsdnq/giphy.gif)")
 
-
+st.error('이거되면좋겠당')
 st.markdown('---')
 
 st.markdown('취업뽀개조 만세!')
