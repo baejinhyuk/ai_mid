@@ -1,7 +1,7 @@
 import streamlit as st
 
-st.title("사진 올려주세요~!")
+st.title("야채 15종 CNN")
 st.write("""
-# Put your picture and see what is your nearest breed!
+# 15개 야채중 사진을 올려주세요!
 """)
-filename = st.file_uploader("Choose a file")
+filename = st.file_uploader("사진올려주세요")
