@@ -8,7 +8,8 @@ st.set_page_config(
 st.sidebar.markdown("# Vegetable Image Dataset ")
 
 st.markdown('# Vegetable Image Dataset Mid Project')
-st.markdown("## 야채 사진 15종  (kaggle) 🐶")
+st.markdown("## 야채 사진 15종()")\
+st.markdown("🥬🥦🥒🍆🧄🧅🥕🌴🌵🌾🌿🍀🍁🍂🌲🌱☘🥀🌻🌼🌻🌺🧅🥕🥜💐🌸")
 st.markdown(
     '#### [Vegetable Image Dataset link](https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset)')
     
