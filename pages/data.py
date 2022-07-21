@@ -86,3 +86,55 @@ y_valid = lb.transform(y_val_img)
 y_train.shape, y_valid.shape '''
 
 st.code(code8, language='python')
+
+code9='''import tensorflow as tf
+from tensorflow.keras import Sequential
+from tensorflow.keras.layers import Conv2D, MaxPool2D, Dropout, Flatten, Dense
+from tensorflow.keras.callbacks import EarlyStopping
+
+model = Sequential()
+# 입력층
+model.add(Conv2D(filters=8, kernel_size=(3,3),padding= "same", activation='relu', input_shape=(40, 40, 3)))
+model.add(MaxPool2D(2,2))
+model.add(Dropout(0.2))
+
+model.add(Conv2D(filters=16, kernel_size=(3,3),padding= "same", activation='relu'))
+model.add(MaxPool2D(2,2))
+model.add(Dropout(0.2))
+
+model.add(Conv2D(filters=32, kernel_size=(3,3),padding= "same", activation='relu'))
+model.add(MaxPool2D(2,2))
+model.add(Dropout(0.2))
+
+# Fully-connected layer
+model.add(Flatten())
+model.add(Dense(units=16, activation='relu'))
+model.add(Dense(units=8, activation='relu'))
+
+# 출력층
+model.add(Dense(15, activation='softmax'))
+model '''
+
+st.code(code9, language='python')
+
+code10='''model.summary() '''
+
+st.code(code10, language='python')
+
+code11=''' '''
+
+st.code(code11, language='python')
+
+
+code12='''model.compile(optimizer="adam",
+             loss="categorical_crossentropy",
+             metrics=["accuracy"])  '''
+
+
+st.code(code12, language='python')
+
+code13='''from tensorflow.keras.callbacks import EarlyStopping
+earlystop = EarlyStopping(monitor="val_accuracy", patience=5, verbose=1) '''
+
+st.code(code13, language='python')
+
