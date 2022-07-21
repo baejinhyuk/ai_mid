@@ -7,7 +7,7 @@ image_label '''
 
 st.code(code, language='python')
 
-st.markdown('### 이미지파일가져오고 사이즈조정40,40')
+st.markdown('### 이미지파일가져오고 사이즈조정 40,40')
 code2 ='''def img_read_resize(img_path):
     img = cv2.imread(img_path)
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
@@ -145,13 +145,13 @@ earlystop = EarlyStopping(monitor="val_accuracy", patience=5, verbose=1) '''
 
 st.code(code13, language='python')
 
-st.markdown('모델핏돌리기')
+st.markdown('### 모델핏돌리기')
 code14='''history2= model.fit(x_train,y_train, batch_size=32,
                    epochs=100,validation_data=(x_valid,y_valid), callbacks=[earlystop]) '''
 
 st.code(code14, language='python')
 
-st.markdown('모델 결과값 데이터프레임으로 만들기 ')
+st.markdown('### 모델 결과값 데이터프레임으로 만들기 ')
 code15='''pd.DataFrame(history2.history).tail() '''
 
 st.code(code15, language='python')
