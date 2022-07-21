@@ -8,7 +8,7 @@ st.set_page_config(
 st.sidebar.markdown("# Vegetable Image Dataset ")
 
 st.markdown('# Vegetable Image Dataset Mid Project')
-st.markdown("## 전 세계에서 볼 수 있는 15가지 일반 야채로 CNN를 진행했습니다.)
+st.markdown("## 전 세계에서 볼 수 있는 15가지 일반 야채로 CNN를 진행했습니다.")
 st.markdown(
     '#### [Vegetable Image Dataset link](https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset)')
     
