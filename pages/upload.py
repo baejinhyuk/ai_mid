@@ -26,7 +26,7 @@ if upload is not None:
   st.image(img,caption='Uploaded Image',width=300)
   if(st.button('Predict')):
     model = tf.keras.models.load_model(model_path)
-    x = cv2.resize(opencv_image,(100,100))
+    x = cv2.resize(opencv_image,(40,40))
     x = np.expand_dims(x,axis=0)    
     y = model.predict(x)
     ans=np.argmax(y,axis=1)
