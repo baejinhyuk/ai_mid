@@ -1,6 +1,6 @@
 import streamlit as st
 import base64
-
+st.snow()
 
 st.warning('# 야채 15종 CNN')
 st.write("""
