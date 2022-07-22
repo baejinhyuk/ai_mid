@@ -206,7 +206,7 @@ def create_functional_model():
 
 pretrained_model = create_functional_model()
 
-pretrained_model.load_weights("model/dog_breed_classifier_final.h5")
+pretrained_model.load_weights("model/mnist_mlp_model.h5")
 
 # def upload_and_predict2(filename):
 #     img = Image.open(filename)
