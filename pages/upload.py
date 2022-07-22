@@ -1,12 +1,11 @@
 import streamlit as st 
 import os
-import tensorflow as tf
 
 import warnings
 
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
-
+import tensorflow as tf
 import xml.etree.ElementTree as ET
 
 import numpy as np
