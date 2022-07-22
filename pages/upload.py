@@ -1,7 +1,6 @@
 import streamlit as st
 import base64
-[theme]
-base="dark"
+
 
 st.warning('# 야채 15종 CNN')
 st.write("""
