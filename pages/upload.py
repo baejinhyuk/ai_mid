@@ -31,11 +31,11 @@ if upload is not None:
     y = model.predict(x)
     ans=np.argmax(y,axis=1)
     if(ans==0):
-      st.title('야채네요'(ans))
+      st.title('야채네요')
      
     elif(ans==1):
-      st.title('뭘까요'(ans))
+      st.title('뭘까요')
       
     else:
-      st.title('다른야채인거같습니다.(ans)')
+      st.title('다른야채인거같습니다.')
    
