@@ -8,3 +8,9 @@ st.write("""
 """)
 filename = st.file_uploader("사진을 올려주세요")
 st.markdown("![Alt Text](https://media.giphy.com/media/VJY3zeoK87CLBKnqqm/giphy.gif)")
+
+
+url = 'https://github.com/baejinhyuk/ai_mid/pages/mnist_mlp_model.h5'
+filename = url.split('/')[-1]
+trained_model.load_weights(urllib.request.urlretrieve(url, filename))
+
