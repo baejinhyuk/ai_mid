@@ -3,11 +3,10 @@ import os
 import tensorflow as tf
 
 import warnings
-warnings.filterwarnings("ignore")
 
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
-##
+
 import xml.etree.ElementTree as ET
 
 import numpy as np
