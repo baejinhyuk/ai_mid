@@ -7,7 +7,7 @@ import cv2
 from keras.models import *
 st.snow()
 
-model_path='baejinhyuk/ ai_mid/mnist_mlp_model.h5'
+model_path='/baejinhyuk/ai_mid/mnist_mlp_model.h5'
 
 st.title("COVID-19 Identification Using CT Scan")
 upload = st.file_uploader('Upload a CT scan image')
