@@ -5,9 +5,15 @@ import numpy as np
 from PIL import Image # Strreamlit works with PIL library very easily for Images
 import cv2
 from keras.models import *
+from keras.layers import *
+from keras.optimizers import *
+from keras.utils import *
+from keras.callbacks import *
+
+from keras.applications.densenet import DenseNet121, preprocess_input
 st.snow()
 
-model_path='/baejinhyuk/ai_mid/mnist_mlp_model.h5'
+model_path='model/mnist_mlp_model.h5'
 
 st.title("COVID-19 Identification Using CT Scan")
 upload = st.file_uploader('Upload a CT scan image')
