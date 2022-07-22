@@ -32,7 +32,10 @@ if upload is not None:
     ans=np.argmax(y,axis=1)
     if(ans==0):
       st.title('야채네요')
+      print(ans)
     elif(ans==1):
       st.title('뭘까요')
+      print(ans)
     else:
       st.title('다른야채인거같습니다.')
+      print(ans)
