@@ -13,7 +13,7 @@ from keras.callbacks import *
 from keras.applications.densenet import DenseNet121, preprocess_input
 st.snow()
 
-model_path='model/mnist_mlp_model.h5'
+model_path='ai_mid/model/mnist_mlp_model.h5'
 
 st.warning("# 야채 15종 CNN")
 upload = st.file_uploader('야채사진을올려주세요')
