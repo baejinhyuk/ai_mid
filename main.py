@@ -15,7 +15,7 @@ st.error(
     
 
 
-st.markdown("![Alt Text](https://media.giphy.com/media/89sIi77nGsdnq/giphy.gif)")
+st.markdown("![Alt Text](https://media.giphy.com/media/ZbYn4oHxydD5oqXa7g/giphy.gif)")
 
 
 st.markdown('---')
