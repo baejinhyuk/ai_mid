@@ -1,6 +1,6 @@
 import streamlit as st
 import base64
-import cv2
+import cv
 import os
 import numpy as np
 import pickle
