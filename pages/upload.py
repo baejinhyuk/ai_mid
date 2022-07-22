@@ -1,3 +1,5 @@
+pip install streamlit
+
 import streamlit as st
 import base64
 import cv2
