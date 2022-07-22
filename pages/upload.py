@@ -1,9 +1,3 @@
-st.warning('# 야채 15종 CNN')
-st.write("""
-### 15개의 정해진 야채중 사진을 올려주세요!
-""")
-filename = st.file_uploader("사진을 올려주세요")
-st.markdown("![Alt Text](https://media.giphy.com/media/VJY3zeoK87CLBKnqqm/giphy.gif)")
 import streamlit as st 
 import os
 import tensorflow as tf
@@ -39,6 +33,12 @@ import cv2
 from bs4 import BeautifulSoup as bs
 import requests
 
+st.warning('# 야채 15종 CNN')
+st.write("""
+### 15개의 정해진 야채중 사진을 올려주세요!
+""")
+filename = st.file_uploader("사진을 올려주세요")
+st.markdown("![Alt Text](https://media.giphy.com/media/VJY3zeoK87CLBKnqqm/giphy.gif)")
 
 breed_list = ['n02104365-schipperke',
  'n02105412-kelpie',
