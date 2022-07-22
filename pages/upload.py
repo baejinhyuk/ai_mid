@@ -15,9 +15,9 @@ st.snow()
 
 model_path='model/mnist_mlp_model.h5'
 
-st.title("COVID-19 Identification Using CT Scan")
-upload = st.file_uploader('Upload a CT scan image')
-
+st.warning("# 야채 15종 CNN'")
+upload = st.file_uploader('야채사진을올려주세요')
+st.markdown("![Alt Text](https://media.giphy.com/media/VJY3zeoK87CLBKnqqm/giphy.gif)")
 if upload is not None:
   file_bytes = np.asarray(bytearray(upload.read()), dtype=np.uint8)
   opencv_image = cv2.imdecode(file_bytes, 1)
