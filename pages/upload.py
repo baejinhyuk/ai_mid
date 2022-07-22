@@ -4,6 +4,7 @@ import base64
 import numpy as np
 from PIL import Image # Strreamlit works with PIL library very easily for Images
 import cv2
+from keras.models import *
 st.snow()
 
 model_path='baejinhyuk/ ai_mid/mnist_mlp_model.h5'
