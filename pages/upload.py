@@ -38,4 +38,4 @@ if upload is not None:
       
     else:
       st.title('다른야채인거같습니다.')
-      st.print(abs)
+      
